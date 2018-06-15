@@ -1,1 +1,1 @@
-# Gloss·rio POO
+# Gloss√°rio POO
