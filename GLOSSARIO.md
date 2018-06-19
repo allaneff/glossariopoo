@@ -64,4 +64,30 @@ public class Exemplo{
 
 ## **Getters/Setters**
 
-* 
+* Estes métodos são modificadores e seletores dos atributos da sua classe. Consiste em os atributos de uma classe não conseguirem ser acessados diretamente.
+``` Java
+public class Teste {
+    private double soma;
+    
+    public void setSoma(double soma) {
+        this.soma = soma;
+    }
+    
+    public double getSoma() {
+        return soma;
+    }
+}
+```
+
+## **Palavra reservada public/private**
+
+* O modificador **public** deixará visível a classe ou membro para todas as outras classes, subclasses e pacotes do projeto Java.
+
+* O modificador **private** deixará visível o atributo apenas para a classe em que este atributo se encontra.
+``` Java 
+public class PubPriv {
+    public int atributoPublico;
+    private int atributoPrivado;
+}
+```
+
