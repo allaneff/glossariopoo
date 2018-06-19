@@ -1,4 +1,5 @@
 # Glossário POO
+
 ## Construtor
 ## Instanciação
 ## Palavra reservada new
